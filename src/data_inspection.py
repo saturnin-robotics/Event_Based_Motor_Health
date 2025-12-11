@@ -30,7 +30,7 @@ def inspect_dataset(file_path):
                     
                     # Print the key name, size (Shape), and data format (Dtype)
                     print(f"  Sub-element '{sub_key}':")
-                    print(f"    - Size (Shape): {cd_data.shape}")
+                    print(f"    - Size (Shape): {cd_data.shape[0]}")
                     print(f"    - Format (Dtype): {cd_data.dtype}")
                     
     except Exception as e:
